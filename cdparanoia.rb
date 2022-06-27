@@ -26,6 +26,12 @@ class Cdparanoia < Formula
     sha256 "aa523b41c0defab573ec82a97198af79f4b2c103490104d59110c639d30a7fd4"
   end
 
+  # Personal patch to make the progress bar smaller
+  patch do
+    url "https://gist.githubusercontent.com/norm/1bce793b20c6f31f871cad330a35be91/raw/9f50964964d4e9ec1d0b75d71b1605f57b1c579b/gistfile1.txt"
+    sha256 "051fd75bc1038c755c1dd917e36103c39896bbc8bc14217459160c7c228188e3"
+  end
+
   def install
     system "autoreconf", "-fiv"
    
