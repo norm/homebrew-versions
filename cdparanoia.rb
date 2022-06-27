@@ -28,8 +28,8 @@ class Cdparanoia < Formula
 
   # Personal patch to make the progress bar smaller
   patch do
-    url "https://gist.githubusercontent.com/norm/1bce793b20c6f31f871cad330a35be91/raw/9f50964964d4e9ec1d0b75d71b1605f57b1c579b/gistfile1.txt"
-    sha256 "051fd75bc1038c755c1dd917e36103c39896bbc8bc14217459160c7c228188e3"
+    url "https://gist.githubusercontent.com/norm/1bce793b20c6f31f871cad330a35be91/raw/8e43049aa773a663b27d2f19526510751c60d3d3/gistfile1.txt"
+    sha256 "c9e2c48b1d625d316ad87c839d180970eac3c2a94e1f37e11ad5427dca35edc7"
   end
 
   def install
